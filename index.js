@@ -14,7 +14,7 @@ const rooms = [
         price_per_hour : 1200,
     },
     {
-        room_name : 'Primium',
+        room_name : 'Premium',
         room_id : 2,
         seats : 200,
         amenties : ['wifi,projection screen,AC,TV'],
@@ -121,7 +121,7 @@ app.post('/room/book', (req,res) => {
     }
 });
 
-// => list all customers data 
+// => list all rooms booked data 
 
 app.get('/room/booked-details', (req,res) => {
     const roomArray = [];
