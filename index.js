@@ -138,7 +138,7 @@ app.get('/room/booked-details', (req,res) => {
     res.status(200).send(roomArray);
 });
 
-// => list all customer data
+// => list all rooms customer data
 
 app.get('/room/customer-details', (req,res) => {
     const customerArray = [];
